@@ -1,0 +1,16 @@
+﻿@model IEnumerable<LabWork2.Models.Node>
+@{
+    ViewBag.Title = "Note";
+}
+<p></p>
+<h2>Note</h2>
+
+<div id="searchresults">
+    
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>@item.Stroke</li>
+        }
+    </ul>
+</div>
